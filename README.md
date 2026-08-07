@@ -28,7 +28,7 @@ Computer vision applied to sports has the potential to be a genuinely powerful t
 ## Repo Structure
 
 ```
-├── PWHL_CV_detection.ipynb
+├── pwhl_cv_pipeline.ipynb
 └── README.md
 ```
 
