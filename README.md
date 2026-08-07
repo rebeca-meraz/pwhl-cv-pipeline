@@ -43,6 +43,7 @@ Computer vision applied to sports has the potential to be a genuinely powerful t
 ## Personal Reflection
 
 This project taught me as much about process as about computer vision itself. I assumed the biggest bottleneck would be the modeling stages — tuning YOLO, choosing an OCR engine — but manual review and labeling ended up taking far more time and iteration than either. Going through ~1,800 detections by hand made it clear how much of a small-dataset CV pipeline is actually human judgment, not model architecture.
+
 The OCR results themselves also corrected an assumption I walked in with. I expected image quality to be the deciding factor, so the crops that were sharp and fully frontal — the “easy” cases — were reassuring at first: they read correctly, and I figured the harder cases would just need better resolution. What actually broke the model was angle, independent of quality: a crisp, well-lit crop with the player turned even slightly off-frontal failed just as often as a blurry one. That distinction — quality and orientation as separate failure modes, not one problem — is exactly the kind of groundwork that has to hold up before player tracking can say anything useful about fatigue, workload, or the coaching decisions built on top of it.
 
 ## Tools
